@@ -5,6 +5,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![demo png](https://github.com/f2yu/EmojiPopMenu/blob/master/demo.png)
+
+![demo gif](https://github.com/f2yu/EmojiPopMenu/blob/master/demo.gif)
+
 ## 使用说明
 ```swift
 //EmojiPopMenu.shared.xxx
