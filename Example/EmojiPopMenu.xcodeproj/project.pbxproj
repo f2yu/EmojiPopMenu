@@ -15,6 +15,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		95CB186628034409000A99F2 /* cry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 95CB186528034409000A99F2 /* cry.gif */; };
+		95CB186928034450000A99F2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB186728034450000A99F2 /* TableViewController.swift */; };
+		95CB186A28034450000A99F2 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB186828034450000A99F2 /* NormalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		251A11CB68FB81743E41BEF9 /* EmojiPopMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EmojiPopMenu.podspec; path = ../EmojiPopMenu.podspec; sourceTree = "<group>"; };
+		251A11CB68FB81743E41BEF9 /* EmojiPopMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmojiPopMenu.podspec; path = ../EmojiPopMenu.podspec; sourceTree = "<group>"; };
 		2B0C8B8DA5CC36BAC616DC29 /* Pods_EmojiPopMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojiPopMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B84C71B2B0C341AF66D3B /* Pods-EmojiPopMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiPopMenu_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EmojiPopMenu_Tests/Pods-EmojiPopMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		482C721190775B13373EF7F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		482C721190775B13373EF7F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C4EE5588BDACA5E518F218B /* Pods-EmojiPopMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiPopMenu_Example.debug.xcconfig"; path = "Target Support Files/Pods-EmojiPopMenu_Example/Pods-EmojiPopMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EmojiPopMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiPopMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +46,12 @@
 		607FACE51AFB9204008FA782 /* EmojiPopMenu_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiPopMenu_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		95CB186528034409000A99F2 /* cry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cry.gif; sourceTree = SOURCE_ROOT; };
+		95CB186728034450000A99F2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		95CB186828034450000A99F2 /* NormalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
 		A4717437A541D89B04F4CDD4 /* Pods-EmojiPopMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiPopMenu_Example.release.xcconfig"; path = "Target Support Files/Pods-EmojiPopMenu_Example/Pods-EmojiPopMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C99E2E3EEFBB36F89671405B /* Pods_EmojiPopMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojiPopMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9E502ED328F44F8684D6763 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C9E502ED328F44F8684D6763 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D93769C695C308ACABDC7CC9 /* Pods-EmojiPopMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiPopMenu_Tests.release.xcconfig"; path = "Target Support Files/Pods-EmojiPopMenu_Tests/Pods-EmojiPopMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +83,6 @@
 				401B84C71B2B0C341AF66D3B /* Pods-EmojiPopMenu_Tests.debug.xcconfig */,
 				D93769C695C308ACABDC7CC9 /* Pods-EmojiPopMenu_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,8 +110,11 @@
 		607FACD21AFB9204008FA782 /* Example for EmojiPopMenu */ = {
 			isa = PBXGroup;
 			children = (
+				95CB186528034409000A99F2 /* cry.gif */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				95CB186828034450000A99F2 /* NormalViewController.swift */,
+				95CB186728034450000A99F2 /* TableViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				95CB186628034409000A99F2 /* cry.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -332,6 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				95CB186A28034450000A99F2 /* NormalViewController.swift in Sources */,
+				95CB186928034450000A99F2 /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

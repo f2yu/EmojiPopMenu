@@ -1,0 +1,6 @@
+framework module Pods_EmojiPopMenu_Tests {
+  umbrella header "Pods-EmojiPopMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

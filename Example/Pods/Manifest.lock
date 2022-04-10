@@ -1,0 +1,16 @@
+PODS:
+  - EmojiPopMenu (0.1.0)
+
+DEPENDENCIES:
+  - EmojiPopMenu (from `../`)
+
+EXTERNAL SOURCES:
+  EmojiPopMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EmojiPopMenu: f741088c2923a29c5c324389fd793cedddc6998e
+
+PODFILE CHECKSUM: e250b36644c3500a79ccd78f31999bec1c93b6e6
+
+COCOAPODS: 1.11.2

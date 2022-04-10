@@ -1,0 +1,6 @@
+framework module EmojiPopMenu {
+  umbrella header "EmojiPopMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
