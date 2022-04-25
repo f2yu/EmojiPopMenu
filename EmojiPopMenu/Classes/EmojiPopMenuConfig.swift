@@ -10,6 +10,7 @@ import UIKit
 public class EmojiPopMenuConfig {
     
     public static let `default` = EmojiPopMenuConfig()
+    public static let autoCornerRadius: CGFloat = -1
     
     //缩放动画时间、选中后轨迹动画时间
     public var animationTime: TimeInterval = 0.33
@@ -33,6 +34,8 @@ public class EmojiPopMenuConfig {
     public var isAnchorViewAutoRotation = true
     //距离目标point的距离，point为屏幕坐标
     public var distanceToTarget: CGFloat = 12
+    //表情托盘圆角，autoCornerRadius，为高度的一半
+    public var cornerRadius: CGFloat = EmojiPopMenuConfig.autoCornerRadius
     
     func normalCenters(_ totalCount: Int) -> [CGPoint] {
         var centers: [CGPoint] = []

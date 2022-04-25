@@ -7,12 +7,9 @@
 
 #if os(macOS)
 import AppKit
-private var imagesKey: Void?
-private var durationKey: Void?
 #else
 import UIKit
 import MobileCoreServices
-private var imageSourceKey: Void?
 #endif
 
 #if !os(watchOS)
@@ -98,7 +95,7 @@ public class EmojiPopMenuView: UIView {
         let rect = CGRect(x: 0, y: 0, width: width, height: height)
         contentView.frame = rect
         backgroundView.frame = contentView.bounds
-        backgroundView.layer.cornerRadius = height / 2
+        backgroundView.layer.cornerRadius = config.cornerRadius == EmojiPopMenuConfig.autoCornerRadius ? height / 2 : config.cornerRadius
         contentView.addSubview(backgroundView)
         contentView.addSubview(anchorImageView)
         
@@ -156,7 +153,7 @@ public class EmojiPopMenuView: UIView {
         contentView.frame = beginFrame
         let inContentViewPoint = EmojiPopMenu.currentWindow?.convert(point, to: contentView) ?? .zero
         anchorImageView.center = CGPoint(x: inContentViewPoint.x, y: anchorY)
-        if anchorImageView.frame.minX < contentView.bounds.height / 2 || anchorImageView.frame.maxX > contentView.bounds.width - contentView.bounds.height / 2 {
+        if anchorImageView.frame.minX < backgroundView.layer.cornerRadius || anchorImageView.frame.maxX > contentView.bounds.width - backgroundView.layer.cornerRadius {
             anchorImageView.isHidden = true
         } else {
             anchorImageView.isHidden = false
