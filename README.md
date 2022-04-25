@@ -89,6 +89,10 @@ public class EmojiPopMenuTitleLabelConfig {
 }
 ```
 
+## Todo
+
+下个版本新增自定义View支持，用于支持Lottie
+
 ## Installation
 
 EmojiPopMenu is available through [CocoaPods](https://cocoapods.org). To install
