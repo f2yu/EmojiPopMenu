@@ -406,8 +406,6 @@ private class EmojiPopMenuSelectedLocus: NSObject, CAAnimationDelegate {
         fromCenter = CGPoint(x: fromRect.midX, y: fromRect.midY)
         imageView.frame = view.frame
         imageView.image = image
-        imageView.layer.masksToBounds = true
-        imageView.layer.cornerRadius = view.frame.height / 2
     }
     
     func updateTo(_ view: UIView) {
@@ -452,15 +450,16 @@ private class EmojiPopMenuSelectedLocus: NSObject, CAAnimationDelegate {
         
         animationLayer?.add(groups, forKey: "group")
         
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + max(0, config.animationTime - 0.1)) {
+            self.animationLayer?.isHidden = true
+        }
     }
     
     private func createLayer() -> CALayer {
         let layer = CALayer()
         layer.bounds = imageView.bounds
         layer.position = fromCenter
-        layer.masksToBounds = imageView.layer.masksToBounds
-        layer.cornerRadius = imageView.layer.cornerRadius
-        layer.contents = imageView.layer.contents
+        layer.contents = imageView.image?.cgImage
         layer.contentsScale = UIScreen.main.scale
         return layer
     }
